@@ -8,6 +8,14 @@ package com.mycompany.librarymanagement.model;
  *
  * @author sesanduramath
  */
-public class Book {
-    System.out.println("Hello");
+public class Book extends LibraryItem{
+    
+    private String author;
+    private String category;
+    
+    public Book(String itemId, String title, boolean isAvailable, String author, String category){
+        super(itemId, title, isAvailable);
+        this.author = author;
+        this.category = category;
+    }
 }
