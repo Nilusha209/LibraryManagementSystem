@@ -18,4 +18,20 @@ public class Book extends LibraryItem{
         this.author = author;
         this.category = category;
     }
+    
+    public String getAuthor(){
+        return author;
+    }
+    
+    public void setauthor (String author){
+        this.author = author;
+    }
+    
+    public String getCategory(){
+        return category;
+    }
+    
+    public void setCategory (String category){
+        this.category = category;
+    }
 }
