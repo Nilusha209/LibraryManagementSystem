@@ -34,4 +34,9 @@ public class Book extends LibraryItem{
     public void setCategory (String category){
         this.category = category;
     }
+   
+  @override  
+  public String getItemType(){
+      return "Book";
+  }
 }
