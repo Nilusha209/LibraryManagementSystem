@@ -9,5 +9,5 @@ package com.mycompany.librarymanagement.model;
  * @author sesanduramath
  */
 public class Book {
-    
+    System.out.println("Hello");
 }
